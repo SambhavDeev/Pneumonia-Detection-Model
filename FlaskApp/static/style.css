@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Blackish-Greyish Background */
+    color: #ffffff; /* White Text for Better Contrast */
+    overflow-x: hidden;
+}
+
+/* Fixed Background */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(135deg, #2c2c2c, #1e1e1e); /* Subtle Gradient for Depth */
+}
+
+/* Custom Font for Title */
+.title-font {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem; /* Larger Font Size */
+    letter-spacing: 2px; /* Spacing Between Letters */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333333; /* Dark Grey Navbar */
+    border-bottom: 2px solid #444444; /* Slightly Lighter Border */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important; /* White Text for Navbar */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White Icon for Toggler */
+}
+
+/* Health Facts Section */
+.health-facts {
+    font-size: 14px;
+    color: black; /* White Text for Better Contrast */
+}
+
+.health-facts ul {
+    padding-left: 20px; /* Add some indentation for the list */
+}
+
+.health-facts li {
+    margin-bottom: 5px; /* Space Between Facts */
+}
+
+/* Fixed Footer */
+#footer {
+    background-color: #333333; /* Dark Grey Footer */
+    color: blue; /* White Text for Footer */
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0d6efd; /* Blue Links for Social Media */
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Blinking Text */
+.blinking-green {
+    animation: blink-green 1s infinite;
+}
+
+.blinking-red {
+    animation: blink-red 1s infinite;
+}
+
+@keyframes blink-green {
+    0%, 100% { opacity: 1; color: green; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes blink-red {
+    0%, 100% { opacity: 1; color: red; }
+    50% { opacity: 0.5; }
+}
