@@ -65,7 +65,6 @@ The CNN architecture includes:
 
 ## Accuracy
 After training and testing the model, the final performance metrics achieved were:
-- **Training Accuracy** : ~%
 - **Validation Accuracy** : ~56%
 - **Testing Accuracy** : **62%**
 
