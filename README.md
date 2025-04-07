@@ -38,7 +38,7 @@ This is a **Flask-based web application** designed to detect **pneumonia** from 
 ---
 
 ## Model Overview
-The prediction model was trained using a **Convolutional Neural Network (CNN)** architecture implemented in **TensorFlow/Keras**. The model was trained on a dataset of chest X-ray images categorized into two classes:
+The prediction model was trained using a **Convolutional Neural Network (CNN) VGG19** architecture implemented in **TensorFlow/Keras**. The model was trained on a dataset of chest X-ray images categorized into two classes:
 - **Pneumonia**
 - **Normal**
 
