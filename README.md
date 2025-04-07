@@ -65,9 +65,9 @@ The CNN architecture includes:
 
 ## Accuracy
 After training and testing the model, the final performance metrics achieved were:
-- **Training Accuracy** : ~90%
-- **Validation Accuracy** : ~85%
-- **Testing Accuracy** : **82%**
+- **Training Accuracy** : ~%
+- **Validation Accuracy** : ~56%
+- **Testing Accuracy** : **62%**
 
 The model demonstrates good generalization and can reliably classify X-ray images into **pneumonia** or **normal** categories.
 
